@@ -11,10 +11,6 @@
 //
 // -- This is a parent command --
 // Cypress.Commands.add("login", (email, password) => { ... })
-Cypress.Commands.add('search', (search, searchString)  => {
-    cy.get(searchString).type(search)
-
-})
 //
 //
 // -- This is a child command --
